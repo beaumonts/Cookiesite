@@ -2,10 +2,8 @@
   background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
 }
 h1 {
-  color: blue;
-  text-align: center
+  text-align:center
 }
 p {
-  color: red;
-  text-align: center
+  text-align:center
 }
