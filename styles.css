@@ -13,6 +13,27 @@ img {
 h2 {
   text-align:center
 }
-body {
-  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+.css-selector {
+    background: linear-gradient(165deg, #ffffff, #92bde1);
+    background-size: 400% 400%;
+
+    -webkit-animation: Potato 0s ease infinite;
+    -moz-animation: Potato 0s ease infinite;
+    animation: Potato 0s ease infinite;
+}
+
+@-webkit-keyframes Potato {
+    0%{background-position:0% 61%}
+    50%{background-position:100% 40%}
+    100%{background-position:0% 61%}
+}
+@-moz-keyframes Potato {
+    0%{background-position:0% 61%}
+    50%{background-position:100% 40%}
+    100%{background-position:0% 61%}
+}
+@keyframes Potato {
+    0%{background-position:0% 61%}
+    50%{background-position:100% 40%}
+    100%{background-position:0% 61%}
 }
