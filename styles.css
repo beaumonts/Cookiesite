@@ -14,39 +14,32 @@ h2 {
   text-align:center
 }
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat';
-    background-image: linear-gradient(125deg,
-        #CE9FFC, #7367F0, 
-        #81FBB8,#28C76F, 
-        #FFD26F,#3677FF,
-        #FEC163,#DE4313,
-        #EECE13,#B210FF
-        );
+  .css-selector {
+    background: linear-gradient(270deg, #0081ff, #91c8ff);
     background-size: 400% 400%;
-    animation: bganimation 150s infinite;
+    -webkit-animation: potato 30s ease infinite;
+    -moz-animation: potato 30s ease infinite;
+    -o-animation: potato 30s ease infinite;
+    animation: potato 30s ease infinite;
 }
-
-.text {
-    color: #fff;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    text-transform: uppercase;
-    margin: 300px 0;
-    font-size: 22px;
+@-webkit-keyframes potato {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
-
-@keyframes bganimation {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 1000% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+@-moz-keyframes potato {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes potato {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes potato {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
 }
